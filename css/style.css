@@ -1,0 +1,146 @@
+/*common css start*/
+body{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/*common css end*/
+/*header start*/
+header{
+	border: 1px solid #000;
+}
+.wrapper{
+	margin: 0 auto;
+	padding: 20px 40px;
+	width: 90%;
+	overflow: hidden;
+}
+
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 45%;
+	float: right;
+}
+.menu ul{
+	/*overflow: hidden;*/
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	display: inline-block;
+
+
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0 25px;
+	color: gray;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+.wrapper1{
+	margin: 0 auto;
+	padding: 0 50px;
+}
+.banner{
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+.banner h1{
+	font-size: 40px;
+	color: navy;
+}
+.banner span{
+	color: deepskyblue;
+}
+.banner img{}
+/*banner end*/
+/*portfollio start*/
+.portfolliow{
+	margin: 0 auto;
+	width: 60%;
+}
+.wrapper2{
+overflow: hidden;
+padding: 25px 5px;
+}
+.port_text{
+	float: left;
+	width: 48%;
+	text-align: right;
+}
+.port_text h2{
+	font-size: 48px;
+	color: red;
+}
+.port_text p{
+	color: gray;
+}
+.port_heading{
+	float: right;
+	width: 48%;
+	text-align: left;
+}
+.port_heading h2{
+	font-size: 50px;
+	color: navy;
+}
+/*portfollio end*/
+/*service start*/
+.wrapper_3{
+	width: 80%;
+	margin: 0 auto;
+	padding:20px 0;
+	text-align:center;
+	overflow: hidden;
+}
+.wrapper_3 img{
+	width: 100%;
+	padding: 0 30px;
+}
+.service{
+	width: 31%;	
+	float: left;
+}
+.service_1{
+	width:31%;
+    float: left;
+}
+.service_2{
+	width:31%;
+    float: left;
+}
+.ser_img{
+	padding: 0 18px;
+}
+/*service end*/
+/*footer-start*/
+footer{
+	min-height: 80px;
+	background-color:#0984e3;
+}
+.fot{
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+.fot p{
+	color: silver;
+}
+.fot span{
+	color: #fff;
+}
+/*footer-end*/
